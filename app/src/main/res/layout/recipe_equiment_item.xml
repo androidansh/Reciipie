@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/_75sdp"
+        android:layout_height="@dimen/_75sdp"
+        android:src="@color/primary"
+        android:layout_margin="@dimen/_3sdp"
+        android:id="@+id/clickedRecipeEquipmentImg"/>
+
+    <TextView
+        android:id="@+id/clickedRecipeEquipmentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:text="equiment name"/>
+
+</LinearLayout>
